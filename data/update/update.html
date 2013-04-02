@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Sonicui.data.update</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+            .error {border: solid 1px red;}
+            .error_text { color: red; font-size: 10px;}
+            td {padding: 3px;}
+        </style>
+	</head>
+	<body>
+	    <h1>Sonicui.data.update Demo</h1>
+		<div id='update'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+        <div class=insertInto></div>
+		<script type='text/javascript'>
+			steal('sonicui/data/update',function(){
+				
+				$('#update').sonicui_data_update({
+					model: Sonicui.Models.Table,
+					insertInto:$(".insertInto"),
+					form: "//sonicui/data/update/views/formUpdate.ejs",
+					data: new Sonicui.Models.Table({name : "Bệnh viện",
+						columnLabel : [ {
+							"name" : "ID",
+							"order" : 1,
+							"alias" : "id"
+						}, {
+							"name" : "Tên bệnh viện",
+							"order" : 2,
+							"alias" : "name"
+						}, {
+							"name" : "Địa chỉ",
+							"order" : 3,
+							"alias" : "address"
+						} ],
+						dataItem : [{
+							"id" : 1,
+							"properties" : [ {
+								"name" : "id",
+								"value" : "3",
+								"type" : "string"
+							}, {
+								"name" : "name",
+								"type" : "string",
+								"value":"Benh vien 103"
+							}, {
+								"name" : "address",
+								"value" : "Hai Bà Trưng,Hà Nội",
+								"type" : "string"
+							} ]
+						}]
+					})
+				});
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sonicui.Data.Table</title>
+</head>
+<body>
+	<div id='table'></div>
+	<script type='text/javascript' src='../../../steal/steal.js'>
+		
+	</script>
+	<script type='text/javascript'>
+		steal('sonicui/data/table','sonicui/data/table/columns.js','sonicui/data/table/dataitem.js','sonicui/fixtures', function() {
+			$('#table').sonicui_data_table({
+				title : "Danh sách bệnh viện",
+				columns:Sonicui.Models.Columns,
+				model: Sonicui.Models.DataItem
+			});
+		})
+	</script>
+</body>
+</html>

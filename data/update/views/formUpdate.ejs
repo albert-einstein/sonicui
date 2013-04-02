@@ -1,0 +1,26 @@
+<form name="<%=name%>">
+			<input name="properties[0][name]" type="hidden" value="id" /> <input
+				name="properties[0][value]" type="hidden" value="<%=this.properties[0].value%>" /> <input
+				name="properties[0][type]" type="hidden" value="string" />
+		<div class="collumn">
+			<input name="properties[1][name]" type="hidden" value="name" /> <input
+				name="properties[1][value]" type="text" value="<%=this.properties[1].value%>" /> <input
+				name="properties[1][type]" type="hidden" value="string" />
+		</div>
+		<div class="collumn">
+		<input name="properties[2][name]" type="hidden" value="address" /> <input
+			name="properties[2][value]" type="text" value="<%=this.properties[2].value%>"/> <input
+			name="properties[2][type]" type="hidden" value="string" />
+	</div>
+	<div class="collumn">
+		<input name="properties[3][name]" type="hidden" value="mobile" /> <input
+		name="properties[3][value]" type="text" value="<%=this.properties[3].value%>"/> <input
+		name="properties[3][type]" type="hidden" value="string" />
+		</div>
+		<div class="collumn">
+		<input name="properties[4][name]" type="hidden" value="province" /> <input
+		name="properties[4][value]" type="text" value="<%=this.properties[4].value%>"/> <input
+		name="properties[4][type]" type="hidden" value="string" />
+		</div>
+		<input type="submit" value="Submit"/>
+	</form>

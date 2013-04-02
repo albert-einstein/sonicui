@@ -1,0 +1,19 @@
+<form class ="row formcreate" name=<%=name%>>
+		<%for(var i =0; i<columns.length;i++){
+			if(!(columns[i].alias=="delete"||columns[i].alias=="update"||columns[i].alias=="create")){
+			%>
+			<div class="collumn">
+				<input name="properties[<%=i%>][name]" type="hidden" value="<%=columns[i].alias%>" /> <input
+					name="properties[<%=i%>][value]" type="text" placeholder="Nhập <%=columns[i].name%>..." style="width:96%; margin-left:2px"/> <input
+					name="properties[<%=i%>][type]" type="hidden" value="string" />
+			</div>
+		<%}else{%>
+			<div class="collumn">
+			<input name="submit" type="submit" value="Thêm"/>
+			<input name="properties[<%=i%>][name]" type="hidden" value="<%=columns[i].alias%>" /> <input
+				name="properties[<%=i%>][value]" type="hidden" value="<div class='<%=columns[i].alias%>'></div>"/> <input
+				name="properties[<%=i%>][type]" type="hidden" value="string" />
+		</div>
+		<%}
+		}%>
+</form>

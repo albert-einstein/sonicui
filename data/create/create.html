@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Sonicui.Data.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+            .error {border: solid 1px red;}
+            .error_text { color: red; font-size: 10px;}
+            td {padding: 3px;}
+        </style>
+	</head>
+	<body>
+	    <h1>Sonicui.Data.Create Demo</h1>
+		<div id='create'></div>
+		<div class="insertInto"> </div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('sonicui/data/create','sonicui/fixtures' ,function(){
+				
+				$("#create").sonicui_data_create(
+					{
+						model : Sonicui.Models.Name,
+						insertInto : $(".insertInto"),
+						form : "//sonicui/views/create.ejs"
+					}		
+				);
+			})
+		</script>
+	</body>
+</html>

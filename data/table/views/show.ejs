@@ -1,0 +1,6 @@
+<div class="row" <%=dataItem%>>
+	<% console.log("dataItem",dataItem)%>
+	<%for(j=0;j<config.columns.length;j++){%>
+		<div class="collumn"><%==dataItem.getProperty(config.columns[j].alias)%></div>
+	<%}%>
+</div>

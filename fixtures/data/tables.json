@@ -1,0 +1,118 @@
+{
+    "name": "Danh Sách Bệnh Viện",
+    "collumnlabels": [
+        {
+            "name": "tên bệnh viện",
+            "order": 1,
+            "alias": "name"
+        },
+        {
+            "name": "địa chỉ",
+            "order": 2,
+            "alias": "address"
+        },
+        {
+        	"name":"Cấp",
+        	"order":3,
+        	"alias": "degree"
+        },
+        {
+        	"name":"Xóa",
+        	"order":4,
+        	"alias": "delete"
+        },
+    ],
+    "dataItems": [
+        {
+            "id": 1,
+            "properties": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "value": "bệnh viện Bạch Mai",
+                    "type": "string"
+                },
+                {
+                    "name": "address",
+                    "value": "Hai Bà Trưng,Hà Nội",
+                    "type": "string"
+                },
+                {
+                    "name": "degree",
+                    "value": "Trung ương",
+                    "type": "string"
+                },
+                {
+                    "name": "delete",
+                    "value": "<div class='destroy'></div>",
+                    "type": "objectHtml"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "properties": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "value": "bệnh viện Nhi",
+                    "type": "string"
+                },
+                {
+                    "name": "address",
+                    "value": "Cầu Giấy,Hà Nội",
+                    "type": "string"
+                },
+                {
+                    "name": "degree",
+                    "value": "Trung ương",
+                    "type": "string"
+                },
+                {
+                    "name": "delete",
+                    "value": "<div class='destroy'></div>",
+                    "type": "objectHtml"
+                }
+                
+            ]
+        },
+        {
+            "id": 3,
+            "properties": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "value": "bệnh viện Phụ Sản",
+                    "type": "string"
+                },
+                {
+                    "name": "address",
+                    "value": "Đống Đa,Hà Nội",
+                    "type": "string"
+                },
+                {
+                    "name": "degree",
+                    "value": "Tỉnh",
+                    "type": "string"
+                },
+                {
+                    "name": "delete",
+                    "value": "<div class='destroy'></div>",
+                    "type": "objectHtml"
+                }
+            ]
+        }
+    ]
+}

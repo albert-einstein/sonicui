@@ -1,0 +1,40 @@
+.table {
+	display: table;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.table>.title {
+	background-color: rgb(165, 165, 165);
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-size: x-large;
+	display: table-caption;
+}
+
+.header {
+	display: table-header-group;
+	background-color: rgb(3, 138, 255);
+	height: 35px;
+	line-height: 35px;
+	color: white;
+}
+.header>.collumn{
+	text-align: center;
+}
+.collumn {
+	display: table-cell;
+	border-left: solid 2px rgb(151, 151, 151);
+	border-bottom: solid 2px rgb(151,151,151);
+}
+
+.body {
+	display: table-row-group;
+}
+
+.row {
+	display: table-row;
+}

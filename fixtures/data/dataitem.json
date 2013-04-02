@@ -1,0 +1,99 @@
+[ {
+	"id" : 1,
+	"properties" : [ {
+		"name" : "id",
+		"value" : "1",
+		"type" : "string"
+	}, {
+		"name" : "name",
+		"value" : "bệnh viện Bạch Mai",
+		"type" : "string"
+	}, {
+		"name" : "address",
+		"value" : "Hai Bà Trưng,Hà Nội",
+		"type" : "string"
+	}, {
+		"name" : "mobile",
+		"value" : "0123456789",
+		"type" : "string"
+	}, {
+		"name" : "province",
+		"value" : "Hà Tĩnh",
+		"type" : "string"
+	},	
+	{
+		"name" : "delete",
+		"value" : "<div class='delete'></div>",
+		"type" : "objectHtml"
+	}, {
+		"name" : "update",
+		"value" : "<div class='update'></div>",
+		"type" : "objectHtml"
+	} ]
+}, {
+	"id" : 2,
+	"properties" : [ {
+		"name" : "id",
+		"value" : "2",
+		"type" : "string"
+	}, {
+		"name" : "name",
+		"value" : "bệnh viện Nhi",
+		"type" : "string"
+	}, {
+		"name" : "address",
+		"value" : "Cầu Giấy,Hà Nội",
+		"type" : "string"
+	}, {
+		"name" : "mobile",
+		"value" : "0123456789",
+		"type" : "string"
+	}, 
+	{
+		"name" : "province",
+		"value" : "Hà Tĩnh",
+		"type" : "string"
+	},
+	{
+		"name" : "delete",
+		"value" : "<div class='delete'></div>",
+		"type" : "objectHtml"
+	}, {
+		"name" : "update",
+		"value" : "<div class='update'></div>",
+		"type" : "objectHtml"
+	} ]
+}, {
+	"id" : 3,
+	"properties" : [ {
+		"name" : "id",
+		"value" : "3",
+		"type" : "string"
+	}, {
+		"name" : "name",
+		"value" : "bệnh viện Phụ Sản",
+		"type" : "string"
+	}, {
+		"name" : "address",
+		"value" : "Đống Đa,Hà Nội",
+		"type" : "string"
+	}, {
+		"name" : "mobile",
+		"value" : "0123456789",
+		"type" : "string"
+	}, 
+	{
+		"name" : "province",
+		"value" : "Hà Tĩnh",
+		"type" : "string"
+	},
+	{
+		"name" : "delete",
+		"value" : "<div class='delete'></div>",
+		"type" : "objectHtml"
+	}, {
+		"name" : "update",
+		"value" : "<div class='update'></div>",
+		"type" : "objectHtml"
+	} ]
+} ]

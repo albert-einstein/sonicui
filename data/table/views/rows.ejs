@@ -1,0 +1,4 @@
+<%for(i=0;i<items.length;i++){%>
+		<!--Hiển thị dữ liệu từng dòng tương ứng với cột-->
+		<%==$.View("//sonicui/data/table/views/show.ejs",{config:config,dataItem:items[i]})%>
+<%}%>
